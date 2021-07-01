@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rain-plugins</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.rain</groupId>
-            <artifactId>rain-supports</artifactId>
-            <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <artifactId>rain-supports</artifactId>
+    <description>
+        对外提供抽象接口
+    </description>
+
 
 </project>

@@ -1,6 +1,7 @@
 package com.rain.plugins.service;
 
-import com.rain.core.rule.RuleService;
+
+import com.rain.supports.rule.RuleService;
 
 import java.security.SecureRandom;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.rain.core.rule;
+package com.rain.supports.rule;
 
 /**
  * @Author: xu.dm

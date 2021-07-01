@@ -11,6 +11,7 @@
         <module>rain-core</module>
         <module>rain-main</module>
         <module>rain-plugins</module>
+        <module>rain-supports</module>
     </modules>
     <packaging>pom</packaging>
 
