@@ -1,7 +1,6 @@
 package com.rain.core.annotation;
 
 
-import com.rain.core.rule.RuleFactoryBean;
 import com.rain.core.rule.RuleScannerRegistrar;
 import org.springframework.context.annotation.Import;
 
@@ -15,5 +14,4 @@ public @interface RuleScan {
     String[] basePackages() default {};
     Class<?>[] basePackageClasses() default {};
     Class<? extends Annotation> annotationClass() default Annotation.class;
-    Class<? extends RuleFactoryBean> factoryBean() default RuleFactoryBean.class;
 }

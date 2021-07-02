@@ -3,6 +3,7 @@ package com.rain.main;
 import com.rain.core.annotation.RuleScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * @Author: xu.dm
@@ -13,6 +14,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class,args);
+        ConfigurableApplicationContext context = SpringApplication.run(MainApplication.class, args);
     }
 }

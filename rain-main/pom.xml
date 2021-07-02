@@ -20,6 +20,13 @@
 
         <dependency>
             <groupId>com.rain</groupId>
+            <artifactId>rain-supports</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.rain</groupId>
             <artifactId>rain-plugins</artifactId>
             <version>1.0</version>
             <scope>provided</scope>
