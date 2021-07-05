@@ -19,10 +19,17 @@ public class ServiceStarter implements ApplicationRunner {
     private BusinessService businessService;
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
-        while(true){
-            Thread.sleep(2000);
-            businessService.doBusiness();
-        }
+    public void run(ApplicationArguments args) {
+        new Thread(() -> {
+            while (true) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                businessService.doBusiness();
+            }
+        }).start();
+
     }
 }
