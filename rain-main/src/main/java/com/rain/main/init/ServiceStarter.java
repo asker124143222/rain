@@ -22,12 +22,12 @@ public class ServiceStarter implements ApplicationRunner {
     public void run(ApplicationArguments args) {
         new Thread(() -> {
             while (true) {
+                businessService.doBusiness();
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(10000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                businessService.doBusiness();
             }
         }).start();
 

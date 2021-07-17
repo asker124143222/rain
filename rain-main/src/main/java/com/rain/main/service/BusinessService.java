@@ -48,6 +48,7 @@ public class BusinessService implements InitializingBean, ApplicationContextAwar
         for (RuleService service : ruleServices) {
             data = service.doService(data);
             System.out.println("verify result -> "+data);
+            System.out.println();
         }
     }
 

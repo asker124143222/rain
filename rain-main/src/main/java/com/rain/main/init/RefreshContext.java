@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * @Author: xu.dm
  * @since: 2021/7/2 13:10
- * @Description: TODO
+ * @Description: 未实现
  **/
 @Component
 public class RefreshContext implements ApplicationRunner, ApplicationContextAware {

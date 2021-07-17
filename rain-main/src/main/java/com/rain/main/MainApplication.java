@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 /**
  * @Author: xu.dm
  * @since: 2021/7/1 13:17
- * @Description: TODO
+ * @Description: 通过java -Dloader.path="./lib" 载入外部类库
  **/
 @RuleScan(basePackages = "com.rain.plugins.service")
 @SpringBootApplication
